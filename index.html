@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,8 @@
   <title>Huddle Landing Page</title>
 
   <!-- Import Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
 
   <!-- Import Font Awesome for social icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -18,15 +20,17 @@
       margin: 0;
       padding: 50px;
       font-family: 'Open Sans', sans-serif;
-      background-color: hsl(257, 40%, 49%); /* Violet background color */
-  background-image: url('./images/bg-desktop.svg'); /* Background image for mobile */
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  color: white;
+      background-color: hsl(257, 40%, 49%);
+      /* Violet background color */
+      background-image: url('./images/bg-desktop.svg');
+      /* Background image for mobile */
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      color: white;
     }
 
-    
+
 
     @media(min-width: 768px) {
       body {
@@ -50,6 +54,13 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
+    }
+
+    @media(max-width: 767px) {
+      .content {
+        margin-left: 0;
+        /* Remove left margin for mobile */
+      }
     }
 
 
@@ -78,6 +89,7 @@
       max-width: 500px;
       margin-left: 60px;
     }
+
 
     h1 {
       font-family: 'Poppins', sans-serif;
@@ -138,6 +150,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <header>
@@ -148,7 +161,8 @@
     <img src="./images/illustration-mockups.svg" alt="Mockups Illustration">
     <div class="content">
       <h1>Build The Community Your Fans Will Love</h1>
-      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create
+        connections with your users as you engage in genuine discussion.</p>
       <a href="#" class="btn">Register</a>
       <div class="social-icons">
         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -160,10 +174,11 @@
 
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
 
 </body>
+
 </html>
