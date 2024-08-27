@@ -18,16 +18,17 @@
       margin: 0;
       padding: 50px;
       font-family: 'Open Sans', sans-serif;
-      background-color:hsl(257, 40%, 49%);
-      background: url('./images/bg-desktop.svg') no-repeat center center/cover;
-      color: white;
+      background-color: hsl(257, 40%, 49%); /* Violet background color */
+  background-image: url('./images/bg-desktop.svg'); /* Background image for mobile */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
     }
 
     @media(min-width: 768px) {
       body {
-        background-color:hsl(257, 40%, 49%);
-        background: url('./images/bg-mobile.svg') no-repeat center center/cover;
-        
+        background-image: url('./images/bg-mobile.svg');
       }
     }
 
